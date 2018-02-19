@@ -1,0 +1,36 @@
+.wrapper {
+  margin: 0 auto;
+  background: #aaaaaa;
+  width: 980px; }
+  .wrapper header {
+    background: #00aa00; }
+    .wrapper header nav ui {
+      display: flex; }
+      .wrapper header nav ui ul {
+        width: 180px;
+        height: 30px;
+        border-left-color: 1px solid #A3ADAD; }
+  .wrapper section {
+    background: #aa00da;
+    width: 850px;
+    margin: 0 auto; }
+    .wrapper section .category {
+      background: #dddd00; }
+  .wrapper .return-button {
+    width: 980px;
+    margin-right: auto; }
+    .wrapper .return-button p {
+      width: 150px;
+      height: 30px;
+      text-align: center;
+      background: #ccaa00; }
+      .wrapper .return-button p a {
+        display: block; }
+  .wrapper footer ui {
+    display: flex;
+    background: #dddd00; }
+    .wrapper footer ui ul {
+      width: 180px;
+      height: 30px; }
+
+/*# sourceMappingURL=help.css.map */

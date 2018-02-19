@@ -1,0 +1,61 @@
+$button-color: #A3ADAD;
+$nav-color: #DE960E;
+$background-color1: #aaaaaa;
+$background-color2: #00aa00;
+$background-color3: #aa00da;
+$background-color4: #dddd00;
+$background-color5: #ccaa00;
+.wrapper{
+    margin: 0 auto;
+    background: $background-color1;
+    width:980px;
+
+    header{
+        background: $background-color2;  
+        nav{
+            ui{
+                display: flex;
+                ul{
+                    width: 180px;
+                    height: 30px;
+                    border-left-color: 1px solid $button-color ;
+                }
+            }
+        }
+    }
+    section{
+
+        background: $background-color3;
+        width: 850px;
+        margin: 0 auto;
+        .category{
+            background: $background-color4;
+        }
+    }
+    .return-button{
+        width: 980px;
+        margin-right: auto;
+        p{
+            width: 150px;
+            height: 30px;
+            text-align: center;
+            background: $background-color5;
+            a{
+                display: block;
+            }
+        }
+        
+    }
+    footer{
+        ui{
+            display: flex;
+            background: $background-color4;
+            ul{
+                width: 180px;
+                height: 30px;
+            }
+        }
+    }
+
+
+}
