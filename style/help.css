@@ -1,36 +1,55 @@
-.wrapper {
-  margin: 0 auto;
-  background: #aaaaaa;
-  width: 980px; }
-  .wrapper header {
-    background: #00aa00; }
-    .wrapper header nav ui {
-      display: flex; }
-      .wrapper header nav ui ul {
-        width: 180px;
-        height: 30px;
-        border-left-color: 1px solid #A3ADAD; }
-  .wrapper section {
-    background: #aa00da;
-    width: 850px;
-    margin: 0 auto; }
-    .wrapper section .category {
+body {
+  background: #D3DED9; }
+  body .wrapper {
+    margin: 0 auto;
+    background: #ffffff;
+    width: 980px; }
+    body .wrapper header {
+      background: #00aa00; }
+      body .wrapper header nav ul {
+        display: flex;
+        justify-content: space-between; }
+        body .wrapper header nav ul li {
+          background: #1d37ad;
+          width: 180px;
+          height: 30px;
+          color: #ffffff;
+          display: block; }
+          body .wrapper header nav ul li a :hover {
+            background: #415ac9; }
+    body .wrapper section {
+      width: 850px;
+      margin: 0 auto; }
+      body .wrapper section ul {
+        background: #ffffff; }
+        body .wrapper section ul li {
+          background: #aa00da;
+          margin: 5px;
+          height: 30px;
+          text-align: center; }
+    body .wrapper .category {
       background: #dddd00; }
-  .wrapper .return-button {
-    width: 980px;
-    margin-right: auto; }
-    .wrapper .return-button p {
+      body .wrapper .category p {
+        height: 25px;
+        margin: 5px;
+        border: white;
+        text-align: center; }
+    body .wrapper div p {
+      margin-left: auto;
       width: 150px;
       height: 30px;
       text-align: center;
-      background: #ccaa00; }
-      .wrapper .return-button p a {
+      background: #88f70a; }
+      body .wrapper div p .return-button {
+        margin-left: right; }
+      body .wrapper div p a {
         display: block; }
-  .wrapper footer ui {
-    display: flex;
-    background: #dddd00; }
-    .wrapper footer ui ul {
-      width: 180px;
-      height: 30px; }
+    body .wrapper footer ul {
+      display: flex;
+      justify-content: space-between;
+      background: #dddd00; }
+      body .wrapper footer ul li {
+        width: 180px;
+        height: 30px; }
 
 /*# sourceMappingURL=help.css.map */

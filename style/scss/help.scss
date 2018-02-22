@@ -1,61 +1,93 @@
 $button-color: #A3ADAD;
+$background-color:#D3DED9;
 $nav-color: #DE960E;
-$background-color1: #aaaaaa;
+$wrapper-background-color: #ffffff;
 $background-color2: #00aa00;
 $background-color3: #aa00da;
 $background-color4: #dddd00;
-$background-color5: #ccaa00;
-.wrapper{
-    margin: 0 auto;
-    background: $background-color1;
-    width:980px;
+$background-color5: #88f70a;
+$color: #ffffff;
+body{
+    background: $background-color;
+    .wrapper{
+        margin: 0 auto;
+        background: $wrapper-background-color;
+        width:980px;
 
-    header{
-        background: $background-color2;  
-        nav{
-            ui{
-                display: flex;
+        header{
+            background: $background-color2;  
+            nav{
+                
                 ul{
-                    width: 180px;
-                    height: 30px;
-                    border-left-color: 1px solid $button-color ;
+                    display: flex;
+                    justify-content: space-between;
+                    li{
+                        background: rgb(29, 55, 173);
+                        width: 180px;
+                        height: 30px;
+                        color: $color;
+                        display: block;
+                        a{
+                            :hover{
+                                background:rgb(65, 90, 201); 
+                            }
+                        }
+                    }
                 }
             }
         }
-    }
-    section{
-
-        background: $background-color3;
-        width: 850px;
-        margin: 0 auto;
+        section{
+            
+            width: 850px;
+            margin: 0 auto;
+            ul{
+                background: #ffffff;
+                li{
+                    background: $background-color3;
+                    margin: 5px;
+                    height: 30px;
+                    text-align: center;
+                }
+            }
+            
+        }
         .category{
             background: $background-color4;
-        }
-    }
-    .return-button{
-        width: 980px;
-        margin-right: auto;
-        p{
-            width: 150px;
-            height: 30px;
-            text-align: center;
-            background: $background-color5;
-            a{
-                display: block;
+            p{
+                height: 25px;
+                margin: 5px;
+                border: white;
+                text-align: center;
             }
         }
-        
-    }
-    footer{
-        ui{
-            display: flex;
-            background: $background-color4;
-            ul{
-                width: 180px;
+        div{
+            p{
+                margin-left: auto;
+                width: 150px;
                 height: 30px;
+                text-align: center;
+                background: $background-color5;
+                .return-button{
+                    margin-left: right;
+                }
+                a{
+                    display: block;
+                }
+            }
+        }   
+        footer{
+            
+            ul{
+                display: flex;
+                justify-content: space-between;
+                background: $background-color4;
+                li{
+                    width: 180px;
+                    height: 30px;
+                }
             }
         }
+
+
     }
-
-
 }
