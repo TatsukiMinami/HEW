@@ -1,5 +1,6 @@
 $button-color: #A3ADAD;
-$background-color:#D3DED9;
+$background-color:rgb(144, 151, 148);
+$background-color-hover:rgb(91, 95, 93);
 $nav-color: #DE960E;
 $wrapper-background-color: #ffffff;
 $background-color2: #00aa00;
@@ -21,14 +22,14 @@ body{
                     display: flex;
                     justify-content: space-between;
                     li{
-                        background: rgb(29, 55, 173);
+                        background: $background-color;
                         width: 180px;
                         height: 30px;
                         margin: 3px;
                         display: table-cell;
 	                    vertical-align: middle;
                         &:hover{
-                            background:rgb(65, 90, 201); 
+                            background:$background-color-hover; 
                         }
                         
                         a{
@@ -36,6 +37,9 @@ body{
                             text-decoration: none;
                             display: block;
                             
+                        }
+                        .answer{
+                            background: #ffffff;
                         }
                     }
                 }
@@ -48,28 +52,27 @@ body{
             ul{
                 background: #ffffff;
                 li{
-                    background: $background-color3;
-                    margin: 5px;
-                    height: 30px;
+                    background: $background-color;
+                    margin: 3px;
+                    height: 50px;
                     text-align: center;
+                    &:hover{
+                        background:$background-color-hover; 
+                    }
+                    a{
+                        color: $color;
+                        text-decoration: none;
+                        display: block; 
+                    }
                 }
             }
             
-        }
-        .category{
-            background: $background-color4;
-            p{
-                height: 25px;
-                margin: 5px;
-                border: white;
-                text-align: center;
-            }
         }
         div{
             p{
                 margin-left: auto;
                 width: 150px;
-                height: 30px;
+                height: 25px;
                 text-align: center;
                 background: $background-color5;
                 .return-button{
@@ -89,6 +92,16 @@ body{
                 li{
                     width: 180px;
                     height: 30px;
+                    margin: 3px;
+
+                    &:hover{
+                        background:$background-color-hover; 
+                    }
+                    a{
+                        color: $color;
+                        text-decoration: none;
+                        display: block; 
+                    }
                 }
             }
         }

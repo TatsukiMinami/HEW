@@ -1,5 +1,5 @@
 body {
-  background: #D3DED9; }
+  background: #909794; }
   body .wrapper {
     margin: 0 auto;
     background: #ffffff;
@@ -8,39 +8,40 @@ body {
       display: flex;
       justify-content: space-between; }
       body .wrapper header nav ul li {
-        background: #1d37ad;
+        background: #909794;
         width: 180px;
         height: 30px;
         margin: 3px;
         display: table-cell;
         vertical-align: middle; }
         body .wrapper header nav ul li:hover {
-          background: #415ac9; }
+          background: #5b5f5d; }
         body .wrapper header nav ul li a {
           color: #ffffff;
           text-decoration: none;
           display: block; }
+        body .wrapper header nav ul li .answer {
+          background: #ffffff; }
     body .wrapper section {
       width: 850px;
       margin: 0 auto; }
       body .wrapper section ul {
         background: #ffffff; }
         body .wrapper section ul li {
-          background: #aa00da;
-          margin: 5px;
-          height: 30px;
+          background: #909794;
+          margin: 3px;
+          height: 50px;
           text-align: center; }
-    body .wrapper .category {
-      background: #dddd00; }
-      body .wrapper .category p {
-        height: 25px;
-        margin: 5px;
-        border: white;
-        text-align: center; }
+          body .wrapper section ul li:hover {
+            background: #5b5f5d; }
+          body .wrapper section ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            display: block; }
     body .wrapper div p {
       margin-left: auto;
       width: 150px;
-      height: 30px;
+      height: 25px;
       text-align: center;
       background: #88f70a; }
       body .wrapper div p .return-button {
@@ -53,6 +54,13 @@ body {
       background: #dddd00; }
       body .wrapper footer ul li {
         width: 180px;
-        height: 30px; }
+        height: 30px;
+        margin: 3px; }
+        body .wrapper footer ul li:hover {
+          background: #5b5f5d; }
+        body .wrapper footer ul li a {
+          color: #ffffff;
+          text-decoration: none;
+          display: block; }
 
 /*# sourceMappingURL=help.css.map */
