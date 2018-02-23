@@ -4,19 +4,22 @@ body {
     margin: 0 auto;
     background: #ffffff;
     width: 980px; }
-    body .wrapper header {
-      background: #00aa00; }
-      body .wrapper header nav ul {
-        display: flex;
-        justify-content: space-between; }
-        body .wrapper header nav ul li {
-          background: #1d37ad;
-          width: 180px;
-          height: 30px;
+    body .wrapper header nav ul {
+      display: flex;
+      justify-content: space-between; }
+      body .wrapper header nav ul li {
+        background: #1d37ad;
+        width: 180px;
+        height: 30px;
+        margin: 3px;
+        display: table-cell;
+        vertical-align: middle; }
+        body .wrapper header nav ul li:hover {
+          background: #415ac9; }
+        body .wrapper header nav ul li a {
           color: #ffffff;
+          text-decoration: none;
           display: block; }
-          body .wrapper header nav ul li a :hover {
-            background: #415ac9; }
     body .wrapper section {
       width: 850px;
       margin: 0 auto; }

@@ -15,7 +15,6 @@ body{
         width:980px;
 
         header{
-            background: $background-color2;  
             nav{
                 
                 ul{
@@ -25,12 +24,18 @@ body{
                         background: rgb(29, 55, 173);
                         width: 180px;
                         height: 30px;
-                        color: $color;
-                        display: block;
+                        margin: 3px;
+                        display: table-cell;
+	                    vertical-align: middle;
+                        &:hover{
+                            background:rgb(65, 90, 201); 
+                        }
+                        
                         a{
-                            :hover{
-                                background:rgb(65, 90, 201); 
-                            }
+                            color: $color;
+                            text-decoration: none;
+                            display: block;
+                            
                         }
                     }
                 }
