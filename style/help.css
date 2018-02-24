@@ -25,19 +25,29 @@ body {
     body .wrapper section {
       width: 850px;
       margin: 0 auto; }
-      body .wrapper section ul {
-        background: #ffffff; }
-        body .wrapper section ul li {
-          background: #909794;
-          margin: 3px;
-          height: 50px;
-          text-align: center; }
-          body .wrapper section ul li:hover {
-            background: #5b5f5d; }
-          body .wrapper section ul li a {
-            color: #ffffff;
-            text-decoration: none;
-            display: block; }
+      body .wrapper section label {
+        display: block;
+        background: #909794;
+        font-weight: bold;
+        height: 40px;
+        cursor: pointer; }
+        body .wrapper section label :hover {
+          background: #5b5f5d; }
+      body .wrapper section input {
+        display: none; }
+      body .wrapper section article {
+        background: rgba(255, 255, 255, 0.5);
+        margin-top: -1px;
+        overflow: hidden;
+        height: 0px;
+        position: relative;
+        z-index: 10;
+        transition: height 0.3s ease-in-out, box-shadow 0.6s linear; }
+      body .wrapper section input:checked ~ article {
+        transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+        box-shadow: 0px 0px 0px 1px rgba(155, 155, 155, 0.3); }
+      body .wrapper section input:checked ~ article.answer {
+        height: 140px; }
     body .wrapper div p {
       margin-left: auto;
       width: 150px;
